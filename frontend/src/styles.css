@@ -1,0 +1,145 @@
+/* styles.css */
+
+/* Add some basic styling to the container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.task-table
+{
+  border: 10px;
+}
+/* Style the input fields */
+.input-field {
+  margin-bottom: 10px;
+}
+
+/* Style the button */
+.button {
+  background-color: #061e38;
+  color: #fff;
+  border: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style the task list */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  border: 10px;
+}
+
+/* Style the task list items */
+.task-item {
+  margin-bottom: 10px;
+  border: 10px;
+}
+
+/* Style the status button */
+.status-button:hover{
+  background-color: #db3005;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-color: #061e38;
+  border-radius: 20px;
+}
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styles */
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-field input[type="text"],
+  .input-field input[type="date"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-field input[type="text"]:focus,
+  .input-field input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #20344a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task list styles */
+  .task-list {
+    list-style-type: disc;
+    padding: 0;
+  }
+  
+  .task-item {
+    background-color: #f1f3f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .task-item .task-text {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .task-item .status-button {
+    background-color: #a75228;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .status-button:hover {
+    background-color: #ec1010;
+  }
+  
